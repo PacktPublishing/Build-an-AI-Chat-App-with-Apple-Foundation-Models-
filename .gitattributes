@@ -1,0 +1,20 @@
+# Keep source and Xcode project metadata in a stable, cross-platform format.
+* text=auto eol=lf
+
+# Xcode project metadata is text and should always use LF line endings.
+*.pbxproj text eol=lf
+*.xcworkspacedata text eol=lf
+*.xcscheme text eol=lf
+*.plist text eol=lf
+*.json text eol=lf
+*.swift text eol=lf
+*.strings text eol=lf
+*.md text eol=lf
+
+# Common binary assets must not be treated as text.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.heic binary
+*.pdf binary

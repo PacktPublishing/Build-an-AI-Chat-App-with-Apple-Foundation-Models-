@@ -1,0 +1,11 @@
+# macOS metadata created when the project is copied or extracted.
+.DS_Store
+__MACOSX/
+
+# Xcode per-user settings and workspace state.
+**/xcuserdata/
+*.xcuserstate
+
+# Xcode build output.
+DerivedData/
+**/DerivedData/
